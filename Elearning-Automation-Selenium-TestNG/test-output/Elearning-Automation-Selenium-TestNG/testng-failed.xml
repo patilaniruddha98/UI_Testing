@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Elearning-Automation-Selenium-TestNG]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.elearning.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="ElearningApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.elearning.testCases.BaseClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="ELTC_033"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.elearning.testCases.BaseClass -->
+    </classes>
+  </test> <!-- ElearningApp Test(failed) -->
+</suite> <!-- Failed suite [Elearning-Automation-Selenium-TestNG] -->

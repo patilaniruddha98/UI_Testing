@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Elearning-Automation-Selenium-TestNG">
+
+<listeners>
+		<listener class-name="com.elearning.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="ElearningApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.elearning.testCases.BaseClass" />
+				
+	
+		</classes>
+
+	</test>
+
+</suite>

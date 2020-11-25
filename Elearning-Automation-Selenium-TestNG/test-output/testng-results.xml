@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-25T08:24:53Z" name="Elearning-Automation-Selenium-TestNG" finished-at="2020-11-25T08:27:32Z" duration-ms="158958">
+    <groups>
+    </groups>
+    <test started-at="2020-11-25T08:24:53Z" name="ElearningApp Test" finished-at="2020-11-25T08:27:32Z" duration-ms="158958">
+      <class name="com.elearning.testCases.BaseClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.elearning.testCases.BaseClass@5a955565]" started-at="2020-11-25T08:24:54Z" name="setUp" finished-at="2020-11-25T08:25:20Z" duration-ms="26255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.elearning.testCases.BaseClass@5a955565]" started-at="2020-11-25T08:25:32Z" name="loginTest" data-provider="LoginData" finished-at="2020-11-25T08:25:40Z" duration-ms="7671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="ELTC_031()[pri:1, instance:com.elearning.testCases.BaseClass@5a955565]" started-at="2020-11-25T08:25:40Z" name="ELTC_031" finished-at="2020-11-25T08:26:38Z" duration-ms="57582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ELTC_031 -->
+        <test-method signature="ELTC_032()[pri:2, instance:com.elearning.testCases.BaseClass@5a955565]" started-at="2020-11-25T08:26:38Z" name="ELTC_032" finished-at="2020-11-25T08:27:14Z" duration-ms="35687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ELTC_032 -->
+        <test-method signature="ELTC_033()[pri:3, instance:com.elearning.testCases.BaseClass@5a955565]" started-at="2020-11-25T08:27:14Z" name="ELTC_033" finished-at="2020-11-25T08:27:30Z" duration-ms="16636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ELTC_033 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.elearning.testCases.BaseClass@5a955565]" started-at="2020-11-25T08:27:30Z" name="tearDown" finished-at="2020-11-25T08:27:32Z" duration-ms="1983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.elearning.testCases.BaseClass -->
+    </test> <!-- ElearningApp Test -->
+  </suite> <!-- Elearning-Automation-Selenium-TestNG -->
+</testng-results>
